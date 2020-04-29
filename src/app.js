@@ -4,6 +4,8 @@ const hbs = require('hbs');
 
 const app = express();
 
+const port = process.env.PORT || 8080;
+
 const publicDirectoryPath = path.join(__dirname,'../public');
 
 app.set('view engine','hbs');
@@ -13,6 +15,6 @@ app.get('',(req,res)=>{
     res.render('index');
 })
 
-app.listen(8080,(req,res)=>{
+app.listen(port,(req,res)=>{
     console.log('ON');
 });
