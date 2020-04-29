@@ -138,3 +138,11 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.creator-info {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    font-size: 24px;
+    color: rgb(235, 77, 77);
+}
